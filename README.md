@@ -1,1 +1,1 @@
-https://chasmy911.github.io/rsschool-cv/index.html
+https://chasmy911.github.io/rsschool-cv/

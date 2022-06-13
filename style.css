@@ -1,0 +1,36 @@
+html {background-color:Beige; }
+
+h2 { color:brown;
+
+}
+table { margin:auto; }
+h1 {color: darkred;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+.ava {padding: 0 100px 50px 0; }
+header { 
+        background-color: bisque;
+    vertical-align: middle;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+}
+footer {text-align: center;
+background-color: bisque;
+
+padding: 15px;}
+.menu { text-align:center;
+    font-size: 25px;
+    color:black;
+}
+    a {
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        width: 19.5%;
+        margin-right: 0.625%;
+        text-align: center;
+        line-height: 2;
+        color: rgba(90, 78, 12, 0.822);
+}

@@ -1,77 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV Karpovich</title>
 </head>
+
 <body>
-   <header>
-    <nav class="menu">
 
-        <a href="#Contacts">Contacts</a> <a href="#Education">Education</a> <a href="#Languages">Languages</a> <a
-            href="#Skills">Skills</a>
 
-    </nav>
-</header>
+    <header class="CV__header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="CV__navigation">
+                    <ul class="CV__nav-list">
+                        <li class="CV__nav-item"> <a href="#contacts" class="CV__nav-link">Contacts</a></li>
+                        <li class="CV__nav-item"> <a href="#education" class="CV__nav-link">Education</a></li>
+                        <li class="CV__nav-item"> <a href="#languages" class="CV__nav-link">Languages</a></li>
+                        <li class="CV__nav-item"> <a href="#skills" class="CV__nav-link">Skills</a></li>
+                        <li class="CV__nav-item"> <a href="#projects" class="CV__nav-link">Projects</a></li>
 
-<main>
-    <h1> Karpovich Anastasiya </h1>
-    <table>
-        <tbody>
-        <tr>
-            <td><img class="ava" src="ava.JPG" width="350" height="500" alt="Photo"> </td>
-            <td>
-                <h2 id="Contacts"> Contacts</h2>
+                    </ul>
 
-                <ul>
-                    <li>Tel. +375445801434</li>
-                    <li> email: chasmy@inbox.ru</li>
-                    <li> discord: Anastasiya (@chasmy911) </li>
-                    <li> github:chasmy911 </li>
-                </ul>
-                <h2> Summary</h2>
-                <p>My goal: start working in Frontend. I used to be a video surveillance sales manager. <br>
-                    I am an optimist, I want to achieve this goal the first time.</p>
-                <h2>Education</h2>
-                <p>BSEU, faculty of Management, specialty economist-manager</p>
-                <h2>Languages</h2>
-                <p>Russian - native</p>
-                <p>English - B1 (Pre-Intermediate)
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h2 id="Skills"> Skills</h2>
-                <p>HTML (stage0) <br>
-                    Git (stage0)<br>
-                    CSS (stage0)<br>
-                    1.C Enterprise<br>
-                    1.C Accounting<br>
-                </p>
-            </td>
-            <td>
-                <h2>Code example</h2>
-                <p>
-                    &lt; ul&gt;<br>
-                    &lt;li&gt;Tel.: +375445801434&lt;li&gt;<br>
-                    &lt;li&gt; email: chasmy@inbox.ru &lt; li&gt;<br>
-                    &lt; li &gt; github:chasmy911 &lt; li &gt;<br>
-                    &lt;ul &gt;
-                </p>
+                </nav>
+            </div>
+        </div>
 
-            </td>
-        </tr>
-    </tbody>
-    </table>
-</main>
-<footer>
-  <div>  Karpovich Anastasiya, 2022, <a href="https://github.com/Chasmy911"> Github </a></div>
-    <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" width="40" height="40"
-            alt="RS School"> </a>
-</footer>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__inner">
+                <h1 class="CV__title-name">Karpovich Anastasiya</h1>
+                <h3 class="CV__subtitle">Junior Front-End Developer</h3>
+                <div class="CV__main-flex">
+                    <img class="CV__main_ava" src="ava.JPG" alt="Photo">
+                    <div class="CV__main-flex-box">
+                        <div class="CV__contacts" id="contacts">
+                            <h2 class="CV__contacts-title">Contacts</h2>
+                            <ul class="CV__contacts-list">
+                                <li class="CV__contacts-item"> <span class="CV__contacts-item-name">Tel.:</span>
+                                    +375445801434</li>
+                                <li class="CV__contacts-item"> <span class="CV__contacts-item-name">Email:</span>
+                                    chasmy@inbox.ru</li>
+                                <li class="CV__contacts-item"> <span class="CV__contacts-item-name">Discord:</span>
+                                    Anastasiya (@chasmy911) </li>
+                                <li class="CV__contacts-item"> <span
+                                        class="CV__contacts-item-name">Github:</span>chasmy911 </li>
+                            </ul>
+                        </div>
+                        <h2 class="CV__summary-title">Summary</h2>
+                        <div class="CV__summary-text">
+                            I worked as a video surveillance sales manager. I decided to learn something
+                            new
+                            for
+                            myself. I tried programming and realized that I really like it. Now I spend my free
+                            time
+                            studying.
+                            My strengths include the ability to learn quickly, multitasking, and the ability to
+                            communicate
+                            with
+                            people.
+                        </div>
+
+
+                        <h2 class="CV__education" id="education">Education</h2>
+                        <p>BSEU, faculty of Management, specialty economist-manager</p>
+
+                        <h2 class="CV__languages" id="languages">Languages</h2>
+                        <p class=" CV__languages-items">Russian - native</p>
+                        <p class=" CV__languages-items">English - B1 (Pre-Intermediate)</p>
+
+
+                        <h2 class="CV__skills" id="skills"> Skills</h2>
+                        <ul class="CV__skills-list">
+                            <li class="CV__skills-item">HTML, CSS (basic)</li>
+                            <li class="CV__skills-item">JS (beginner) </li>
+                            <li class="CV__skills-item">VS Code</li>
+                            <li class="CV__skills-item">GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="CV__main-flex2">
+                    <div class="CV__code-box">
+
+                        <h2 class="CV__code">Code example</h2>
+                        <h4 class="CV_code-title">Even or Odd (Codewars kata)</h4>
+
+                        <code class="CV__code-text">
+                        function even_or_odd(number) {<br>
+                        if (number%2==0){return "Even"}<br>
+                        else {return "Odd"}<br>
+                        }
+                        </code>
+
+                    </div>
+                    <div class="CV__projects-box">
+
+
+                        <h2 class="CV__projects" id="projects">Projects</h2>
+                        <div class="CV__projects-item">CV</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="CV__footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="CV__footer-RS-box"><a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="" class="CV__footer-RS"></a></div>
+
+                <div class="CV__footer-name"> Karpovich Anastasiya, 2022</div>
+                <div class="CV__footer-Git-box"><a href="https://github.com/Chasmy911"> <img src="git.jpg" alt="" class="CV__footer-Git"></a></div>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

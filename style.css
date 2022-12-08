@@ -1,36 +1,145 @@
-html {background-color:Beige; }
-
-h2 { color:brown;
-
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-table { margin:auto; }
-h1 {color: darkred;
+
+body {
+    background-color: Beige; 
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Karma', serif;
+}
+
+.CV__header,
+.CV__footer {
+    background-color: bisque;
+}
+
+.CV__nav-list {
+    display: flex;
+    justify-content: space-around;
+    color: rgba(90, 78, 12, 0.822);
+    font-size: 25px;
+    height: 80px;
+    align-items: center;
+    max-width: 1320px;
+    margin-left: 80px;
+    
+}
+
+.CV__nav-item:hover {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2); 
+}
+
+.CV__title-name {
+    color: darkred;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    margin-top: 50px;
+}
+
+.CV__subtitle {
+
+    color: darkred;
     text-align: center;
     font-size: 30px;
-    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
-}
-.ava {padding: 0 100px 50px 0; }
-header { 
-        background-color: bisque;
-    vertical-align: middle;
-font-size: 15px;
-font-family: 'Times New Roman', Times, serif;
-}
-footer {text-align: center;
-background-color: bisque;
 
-padding: 15px;}
-.menu { text-align:center;
-    font-size: 25px;
-    color:black;
 }
-    a {
-        outline: none;
-        text-decoration: none;
-        display: inline-block;
-        width: 19.5%;
-        margin-right: 0.625%;
-        text-align: center;
-        line-height: 2;
-        color: rgba(90, 78, 12, 0.822);
+
+.CV__main-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.CV__main_ava {
+    display: block;
+    margin-left: 70px;
+    width: 400px;
+}
+
+h2 {
+    color: brown;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.CV__main-flex-box {
+padding-left: 55px;
+}
+
+.CV__contacts-item-name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.CV__summary-text {
+    max-width: 700px;
+}
+
+.CV__skills-list {
+    list-style: square;
+}
+
+.CV__main-flex2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 670px;
+    margin: 0 0 20px 120px;
+}
+
+.CV__code-text {
+width: 200px;
+}
+
+
+
+.footer__inner {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.CV__footer-RS-box {
+    width: 100px;
+}
+
+.CV__footer-Git {
+    display: block;
+    width: 40px;
+}
+
+.CV__footer-name {
+    color: rgba(90, 78, 12, 0.822);
+    font-size: 20px;
 }
